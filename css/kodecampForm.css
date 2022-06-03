@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+}
+
+label{
+    color: #ffffff;
+}
+
+.page_body{
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    height: 100vh;
+    overflow: inherit;
+}
+
+.bg_section{
+    width: 40%;
+    background: url(../img/Group-7.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.95;
+    color: #ffffff;
+}
+
+.bg_section h1{
+    font-size: 30px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg_section p{
+    font-size: 19px;
+    padding-left: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#bg_text{
+    margin-top: 500px;
+}
+
+.form_section{
+    width: 60%;
+    padding: 10px 30px 30px 30px;
+    background-color: #212129;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.inner_section h1{
+    color:  #4a53ce;
+    font-size: 30px;
+}
+
+input[type="text"], input[type="email"],select, textarea, input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.form_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_input{
+    width: 48%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+select{
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.radio{
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+input[type="radio"]{
+    margin-right: 10px;  
+}
+
+.radio_btn{
+    margin-right: 22px;
+}
+
+option{
+    font-size: 15px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.button{
+    background: #4a53ce;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+}
